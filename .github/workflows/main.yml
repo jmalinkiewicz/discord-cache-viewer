@@ -3,9 +3,9 @@ name: Build and Release
 on:
   push:
     branches: [main]
-      paths-ignore:
-        - 'README.md'
-        - '.gitignore'
+    paths-ignore:
+      - "README.md"
+      - ".gitignore"
 
 permissions:
   contents: write
